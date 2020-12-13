@@ -1,0 +1,28 @@
+﻿  Agent.cpp
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Vector.h(222,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\cal3dmodel.h(28,10): fatal error C1083: Cannot open include file: 'cal3d/cal3d.h': No such file or directory
+  Basic.cpp
+  cal3dmodel.cpp
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\cal3dmodel.h(28,10): fatal error C1083: Cannot open include file: 'cal3d/cal3d.h': No such file or directory
+  crowdSim.cpp
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Vector.h(222,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\cal3dmodel.h(28,10): fatal error C1083: Cannot open include file: 'cal3d/cal3d.h': No such file or directory
+  Environment.cpp
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Vector.h(222,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(36,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(38,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(42,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(49,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(49,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(50,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(50,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(51,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(51,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(52,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(52,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(524,23): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Environment.cpp(524,20): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Simulator.cpp
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\Vector.h(222,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Junk\Junk\Graphic_Final\CrowdSim\CrowdSim\Crowd\cal3dmodel.h(28,10): fatal error C1083: Cannot open include file: 'cal3d/cal3d.h': No such file or directory
+  Generating Code...

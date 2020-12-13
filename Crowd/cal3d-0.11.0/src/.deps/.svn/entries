@@ -1,0 +1,40 @@
+8
+
+dir
+408
+svn+ssh://sor8786@parasol-svn.cs.tamu.edu/research/parasol-svn/svnrepository/GroupBehaviors/trunk/src/util/cal3d-0.11.0/src/.deps
+svn+ssh://sor8786@parasol-svn.cs.tamu.edu/research/parasol-svn/svnrepository/GroupBehaviors
+
+
+
+2010-11-09T16:28:02.769171Z
+378
+sor8786
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e4641c49-281e-0410-a6c9-b250c1a20219
+
+cal3d_converter.Po
+file
+
+
+
+
+2010-11-16T01:02:06.000000Z
+f2fcfc5de20fd0cfcaef870779767e81
+2010-11-09T16:28:02.769171Z
+378
+sor8786
+

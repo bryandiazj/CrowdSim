@@ -1,0 +1,20 @@
+﻿  crowdSim.cpp
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(52,18): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(91,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(265,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(267,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(276,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(291,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(301,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(326,19): warning C4244: '=': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(387,16): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(390,7): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(400,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(401,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Might\source\repos\Crowd\Crowd\crowdSim.cpp(402,13): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating code
+  1 of 3148 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Crowd.vcxproj -> C:\Users\Might\source\repos\Crowd\Release\Crowd.exe

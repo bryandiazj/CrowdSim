@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{33C529A9-BE19-4177-95CA-1B19527D89A3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Cal3dLibrary</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\samr\Documents\Visual Studio 2015\Projects\Cal3dLibrary\Cal3dLibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\samr\Documents\Visual Studio 2015\Projects\Cal3dLibrary\Cal3dLibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cal3d\animation.cpp" />
+    <ClCompile Include="cal3d\animation_action.cpp" />
+    <ClCompile Include="cal3d\animation_cycle.cpp" />
+    <ClCompile Include="cal3d\bone.cpp" />
+    <ClCompile Include="cal3d\buffersource.cpp" />
+    <ClCompile Include="cal3d\cal3d_wrapper.cpp" />
+    <ClCompile Include="cal3d\coreanimation.cpp" />
+    <ClCompile Include="cal3d\corebone.cpp" />
+    <ClCompile Include="cal3d\corekeyframe.cpp" />
+    <ClCompile Include="cal3d\corematerial.cpp" />
+    <ClCompile Include="cal3d\coremesh.cpp" />
+    <ClCompile Include="cal3d\coremodel.cpp" />
+    <ClCompile Include="cal3d\coremorphanimation.cpp" />
+    <ClCompile Include="cal3d\coreskeleton.cpp" />
+    <ClCompile Include="cal3d\coresubmesh.cpp" />
+    <ClCompile Include="cal3d\coresubmorphtarget.cpp" />
+    <ClCompile Include="cal3d\coretrack.cpp" />
+    <ClCompile Include="cal3d\error.cpp" />
+    <ClCompile Include="cal3d\global.cpp" />
+    <ClCompile Include="cal3d\hardwaremodel.cpp" />
+    <ClCompile Include="cal3d\loader.cpp" />
+    <ClCompile Include="cal3d\matrix.cpp" />
+    <ClCompile Include="cal3d\mesh.cpp" />
+    <ClCompile Include="cal3d\mixer.cpp" />
+    <ClCompile Include="cal3d\model.cpp" />
+    <ClCompile Include="cal3d\morphtargetmixer.cpp" />
+    <ClCompile Include="cal3d\physique.cpp" />
+    <ClCompile Include="cal3d\platform.cpp" />
+    <ClCompile Include="cal3d\quaternion.cpp" />
+    <ClCompile Include="cal3d\renderer.cpp" />
+    <ClCompile Include="cal3d\saver.cpp" />
+    <ClCompile Include="cal3d\skeleton.cpp" />
+    <ClCompile Include="cal3d\springsystem.cpp" />
+    <ClCompile Include="cal3d\streamsource.cpp" />
+    <ClCompile Include="cal3d\submesh.cpp" />
+    <ClCompile Include="cal3d\tinyxml.cpp" />
+    <ClCompile Include="cal3d\tinyxmlerror.cpp" />
+    <ClCompile Include="cal3d\tinyxmlparser.cpp" />
+    <ClCompile Include="cal3d\vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cal3d\animation.h" />
+    <ClInclude Include="cal3d\animation_action.h" />
+    <ClInclude Include="cal3d\animation_cycle.h" />
+    <ClInclude Include="cal3d\animcallback.h" />
+    <ClInclude Include="cal3d\bone.h" />
+    <ClInclude Include="cal3d\buffersource.h" />
+    <ClInclude Include="cal3d\cal3d_wrapper.h" />
+    <ClInclude Include="cal3d\coreanimation.h" />
+    <ClInclude Include="cal3d\corebone.h" />
+    <ClInclude Include="cal3d\corekeyframe.h" />
+    <ClInclude Include="cal3d\corematerial.h" />
+    <ClInclude Include="cal3d\coremesh.h" />
+    <ClInclude Include="cal3d\coremodel.h" />
+    <ClInclude Include="cal3d\coremorphanimation.h" />
+    <ClInclude Include="cal3d\coreskeleton.h" />
+    <ClInclude Include="cal3d\coresubmesh.h" />
+    <ClInclude Include="cal3d\coresubmorphtarget.h" />
+    <ClInclude Include="cal3d\coretrack.h" />
+    <ClInclude Include="cal3d\datasource.h" />
+    <ClInclude Include="cal3d\error.h" />
+    <ClInclude Include="cal3d\global.h" />
+    <ClInclude Include="cal3d\hardwaremodel.h" />
+    <ClInclude Include="cal3d\loader.h" />
+    <ClInclude Include="cal3d\matrix.h" />
+    <ClInclude Include="cal3d\mesh.h" />
+    <ClInclude Include="cal3d\mixer.h" />
+    <ClInclude Include="cal3d\model.h" />
+    <ClInclude Include="cal3d\morphtargetmixer.h" />
+    <ClInclude Include="cal3d\physique.h" />
+    <ClInclude Include="cal3d\platform.h" />
+    <ClInclude Include="cal3d\quaternion.h" />
+    <ClInclude Include="cal3d\refcounted.h" />
+    <ClInclude Include="cal3d\refptr.h" />
+    <ClInclude Include="cal3d\renderer.h" />
+    <ClInclude Include="cal3d\resource.h" />
+    <ClInclude Include="cal3d\saver.h" />
+    <ClInclude Include="cal3d\skeleton.h" />
+    <ClInclude Include="cal3d\springsystem.h" />
+    <ClInclude Include="cal3d\streamsource.h" />
+    <ClInclude Include="cal3d\submesh.h" />
+    <ClInclude Include="cal3d\tinyxml.h" />
+    <ClInclude Include="cal3d\transform.h" />
+    <ClInclude Include="cal3d\vector.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
